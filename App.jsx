@@ -1,11 +1,10 @@
 import React from 'react';
-import MemberDashboard from './MemberDashboard';
 
 export default function App() {
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold">Mess Master Panel</h1>
-      <MemberDashboard />
+    <div style={{ padding: '20px', textAlign: 'center', fontFamily: 'sans-serif' }}>
+      <h1>Mess Master Panel</h1>
+      <p>আপনার মেস প্যানেল সফলভাবে লাইভ হয়েছে!</p>
     </div>
   );
 }
